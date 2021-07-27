@@ -1,8 +1,76 @@
+body{
+    height: 100vh;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    color: hsl(240, 6%, 50%);
+    line-height: 1.5;
+}
+
+main {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+summary {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+  }
+  details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+  }
+  @keyframes sweep {
+    0%    {opacity: 0; margin-top: -10px}
+    100%  {opacity: 1; margin-top: 0px}
+  }
+  details > summary::after {
+    position: absolute;
+    content: "+";
+    right: 20px;
+  }
+  details[open] > summary::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+.card{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border-radius: 30px;
+    background: white;
+}
+
+.img-mobile{
+    width: 60%;
+}
+
+h1{
+    font-weight: 700;
+    color: hsl(237, 12%, 33%);
+}
+
+
 .attribution{ 
+    padding-top: 20px;
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    color:white; 
 }
 
 .attribution a{ 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 100%, 83%); 
+}
+
+
+@media (min-width: 1024px) {
+
 }
