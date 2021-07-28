@@ -42,7 +42,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Accordion based on [Mostafizur Rahman's Accordion HTML Only](https://codepen.io/mostafizur14/pen/JjKoGyZ)
 
 
 ## Author
