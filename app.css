@@ -19,6 +19,15 @@ body{
   background: white;
 }
 
+.faq_arrow{
+  float: right;
+  padding-top: 4px;
+}
+
+.active .faq_arrow{
+  transform: rotate(180deg);
+}
+
 .active{
   font-weight: 700;
   background: white;
@@ -27,7 +36,6 @@ body{
 }
 
 .faq_content {
-
   display: none;
   overflow: hidden;
   text-align: left;
