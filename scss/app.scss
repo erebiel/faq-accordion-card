@@ -1,11 +1,14 @@
+@import 'components';
+
 body{
     height: 100vh;
-    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background: $bg-color;
+    background-size: cover;
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 12px;
-    color: hsl(240, 6%, 50%);
+    font-size: $font-size;
+    color: $text-color;
     line-height: 1.5;
-    margin:auto;
+    margin: auto;
 }
 
 section{
@@ -20,17 +23,17 @@ section{
   border: none;
   outline: none;
   transition: 0.4s;
-  border-bottom: 1px solid hsl(240, 5%, 91%);
+  border-bottom: 1px solid $divider-color;
   background: white;
 }
 
 .faq_arrow{
   float: right;
   padding-top: 4px;
-}
 
-.active .faq_arrow{
-  transform: rotate(180deg);
+  .active{
+    transform: rotate(180deg);
+  }
 }
 
 .active{
@@ -62,7 +65,7 @@ section{
 
 h1{
     font-weight: 700;
-    color: hsl(237, 12%, 33%);
+    color: $header-color;
     font-size: 2.5em;
 }
 
@@ -71,11 +74,11 @@ h1{
     padding-top: 20px;
     font-size: 11px; 
     text-align: center;
-    color:white; 
-}
-
-.attribution a{ 
-    color: hsl(228, 100%, 83%); 
+    color:white;
+    
+    a{
+        color: hsl(228, 100%, 83%);
+    }
 }
 
 
