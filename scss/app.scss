@@ -1,21 +1,25 @@
 @import 'components';
 
-body{
+body {
     height: 100vh;
     background: $bg-color;
     background-size: cover;
+    background-attachment: fixed;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: $font-size;
     color: $text-color;
     line-height: 1.5;
     margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-section{
+section {
   padding-bottom: 25px;
 }
 
-.faq_btn{
+.faq_btn {
   cursor: pointer;
   padding: 18px 0;
   width: 100%;
@@ -27,20 +31,21 @@ section{
   background: white;
 }
 
-.faq_arrow{
+.faq_arrow {
   float: right;
   padding-top: 4px;
-
-  .active{
-    transform: rotate(180deg);
-  }
 }
 
-.active{
+.active {
   font-weight: 700;
   background: white;
   border-bottom: none;
   padding: 18px 0 0 0;
+
+  .faq_arrow {
+    transform: rotate(180deg);
+  }
+
 }
 
 .faq_content {
@@ -48,40 +53,59 @@ section{
   overflow: hidden;
   text-align: left;
   padding-right: 30px;
+  border-bottom: 1px solid $divider-color;
 }
 
-.card{
+.card {
     text-align: center;
-    margin: auto;
-    width: 80%;
-    border-radius: 30px;
-    background: white;
-    padding: 20px;
+    width: 75%;
+    border-radius: 25px;
+    background: url('../images/bg-pattern-mobile.svg'), white;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 25px;
+    padding-top: 100px;
+    margin-top: 150px;
 }
 
-.img-mobile{
-    width: 60%;
+.img-container {
+    z-index: 1;
+    position: absolute;
+    top: 40px;
+    margin-left: -6%;
 }
 
-h1{
+.img-desktop {
+    display: none;
+}
+
+h1 {
     font-weight: 700;
     color: $header-color;
-    font-size: 2.5em;
+    font-size: 2.6em;
 }
 
 
-.attribution{ 
+.attribution { 
     padding-top: 20px;
     font-size: 11px; 
     text-align: center;
     color:white;
     
-    a{
+    a {
         color: hsl(228, 100%, 83%);
     }
 }
 
 
 @media (min-width: 1024px) {
+
+    .img-mobile {
+        display: none;
+    }
+
+    .img-desktop {
+        display:inline;
+    }
 
 }

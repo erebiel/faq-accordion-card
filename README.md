@@ -41,6 +41,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- SASS
 - Mobile-first workflow
 
 
@@ -48,3 +49,4 @@ Users should be able to:
 
 - Website - [erebiel](http://www.erebiel.ca)
 - Frontend Mentor - [@erebiel](https://www.frontendmentor.io/profile/erebiel)
+- Twitter - [@erebiel](https://twitter.com/erebiel)
