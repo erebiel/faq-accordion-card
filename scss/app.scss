@@ -10,6 +10,9 @@ body {
     color: $text-color;
     line-height: 1.5;
     margin: auto;
+}
+
+.content {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,6 +20,7 @@ body {
 
 section {
   padding-bottom: 25px;
+  background: white;
 }
 
 .faq_btn {
@@ -31,6 +35,10 @@ section {
   background: white;
 }
 
+.faq_btn:hover{
+    color: $primary-color2;
+}
+
 .faq_arrow {
   float: right;
   padding-top: 4px;
@@ -38,7 +46,6 @@ section {
 
 .active {
   font-weight: 700;
-  background: white;
   border-bottom: none;
   padding: 18px 0 0 0;
 
@@ -59,6 +66,7 @@ section {
 .card {
     text-align: center;
     width: 75%;
+    max-width: 800px;;
     border-radius: 25px;
     background: url('../images/bg-pattern-mobile.svg'), white;
     background-position: top;
@@ -72,7 +80,7 @@ section {
     z-index: 1;
     position: absolute;
     top: 40px;
-    margin-left: -6%;
+    margin-left: -30px;
 }
 
 .img-desktop {
@@ -100,6 +108,31 @@ h1 {
 
 @media (min-width: 1024px) {
 
+    .content{
+        align-items: center;
+        
+    }
+
+    .img-container {
+        margin-left: -15%;
+        top: 200px;
+        overflow: hidden;
+        width:50%;
+        
+    }
+
+    .card {
+        background: url('../images/bg-pattern-desktop.svg'), white;
+        
+        padding: 50px;
+    }
+
+    section{
+        text-align: left;
+        width: 50%;
+        margin-left: 50%;
+    }
+
     .img-mobile {
         display: none;
     }
@@ -108,4 +141,5 @@ h1 {
         display:inline;
     }
 
+  
 }
