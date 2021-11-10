@@ -48,7 +48,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [erebiel](http://www.erebiel.ca)
+- Website - [erebiel.ca](http://www.erebiel.ca)
 - Frontend Mentor - [@erebiel](https://www.frontendmentor.io/profile/erebiel)
 - Twitter - [@erebiel](https://twitter.com/erebiel)
 - GitHub - [@erebiel](https://github.com/erebiel)
