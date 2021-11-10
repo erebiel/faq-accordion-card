@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://pensive-johnson-1d07f1.netlify.app/](https://pensive-johnson-1d07f1.netlify.app/)
+- Live Site URL: [https://erebiel.ca/faq-accordion-card/](https://erebiel.ca/faq-accordion-card/)
 
 ## My process
 
@@ -51,3 +51,4 @@ Users should be able to:
 - Website - [erebiel](http://www.erebiel.ca)
 - Frontend Mentor - [@erebiel](https://www.frontendmentor.io/profile/erebiel)
 - Twitter - [@erebiel](https://twitter.com/erebiel)
+- GitHub - [@erebiel](https://github.com/erebiel)
